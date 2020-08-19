@@ -82,6 +82,147 @@
 </section>
 <!-- /.main -->
 
+<section class="features">
+    <div class="container">
+        <div class="numbers">
+
+            <div class="numbers-block">
+                <div class="numbers-block__title">
+                    5 лет
+                </div>
+                <!-- /.numbers-block__title -->
+                <div class="numbers-block__text">
+                    На рынке изделий из гофрокартона
+                </div>
+                <!-- /.numbers-block__text -->
+            </div>
+            <!-- /.numbers-block -->
+
+            <div class="numbers-block">
+                <div class="numbers-block__title">
+                    до 5 000 000 м<sup>2</sup>
+                </div>
+                <!-- /.numbers-block__title -->
+                <div class="numbers-block__text">
+                    Ежемесячный объем производства гофрокартона
+                </div>
+                <!-- /.numbers-block__text -->
+            </div>
+            <!-- /.numbers-block -->
+
+            <div class="numbers-block">
+                <div class="numbers-block__title">
+                    4 000 м<sup>2</sup>
+                </div>
+                <!-- /.numbers-block__title -->
+                <div class="numbers-block__text">
+                    Площадь склада
+                </div>
+                <!-- /.numbers-block__text -->
+            </div>
+            <!-- /.numbers-block -->
+
+        </div>
+        <!-- /.numbers -->
+        <div class="features-blocks">
+            <div class="features-block">
+                <div class="features-block__img">
+                    <img src="img/features/Layer 9.png" alt="Производство">
+                </div>
+                <!-- /.features-block__img -->
+                <div class="features-block__text">
+                    <div class="features-block__title">Производство</div>
+                    <!-- /.features-block__title -->
+                    <div class="features-block__descr">4 технологические линии способны выполнить любой заказ любой сложности</div>
+                    <!-- /.features-block__descr -->
+                </div>
+                <!-- /.features-block__text -->
+            </div>
+            <!-- /.features-block -->
+
+            <div class="features-block">
+                <div class="features-block__img">
+                    <img src="img/features/Layer 10.png" alt="Бесплатные образцы">
+                </div>
+                <!-- /.features-block__img -->
+                <div class="features-block__text">
+                    <div class="features-block__title">Бесплатные образцы</div>
+                    <!-- /.features-block__title -->
+                    <div class="features-block__descr">Бесплатно делаем образцы гофроупаковки - это помогает заранее увидеть упаковку</div>
+                    <!-- /.features-block__descr -->
+                </div>
+                <!-- /.features-block__text -->
+            </div>
+            <!-- /.features-block -->
+
+            <div class="features-block">
+                <div class="features-block__img">
+                    <img src="img/features/Layer 11.png" alt="Стабильное качество">
+                </div>
+                <!-- /.features-block__img -->
+                <div class="features-block__text">
+                    <div class="features-block__title">Стабильное качество</div>
+                    <!-- /.features-block__title -->
+                    <div class="features-block__descr">Собственная лаборатория контролирует качество на каждом этапе производства</div>
+                    <!-- /.features-block__descr -->
+                </div>
+                <!-- /.features-block__text -->
+            </div>
+            <!-- /.features-block -->
+
+            <div class="features-block">
+                <div class="features-block__img">
+                    <img src="img/features/Layer 12.png" alt="Страховой запас">
+                </div>
+                <!-- /.features-block__img -->
+                <div class="features-block__text">
+                    <div class="features-block__title">Страховой запас</div>
+                    <!-- /.features-block__title -->
+                    <div class="features-block__descr">Можем хранить запас гофропродукции на своих складах и поставлять его партиями</div>
+                    <!-- /.features-block__descr -->
+                </div>
+                <!-- /.features-block__text -->
+            </div>
+            <!-- /.features-block -->
+
+            <div class="features-block">
+                <div class="features-block__img">
+                    <img src="img/features/Layer 13.png" alt="">
+                </div>
+                <!-- /.features-block__img -->
+                <div class="features-block__text">
+                    <div class="features-block__title">Флексопечать</div>
+                    <!-- /.features-block__title -->
+                    <div class="features-block__descr">Возможно нанесение вашего  логотипа, текста или манипуляционных знаков</div>
+                    <!-- /.features-block__descr -->
+                </div>
+                <!-- /.features-block__text -->
+            </div>
+            <!-- /.features-block -->
+
+            <div class="features-block">
+                <div class="features-block__img">
+                    <img src="img/features/Layer 14.png" alt="">
+                </div>
+                <!-- /.features-block__img -->
+                <div class="features-block__text">
+                    <div class="features-block__title">Гидрофобные добавки</div>
+                    <!-- /.features-block__title -->
+                    <div class="features-block__descr">На производстве реализована технология, которая позволяет гофрокартону стать прочнее</div>
+                    <!-- /.features-block__descr -->
+                </div>
+                <!-- /.features-block__text -->
+            </div>
+            <!-- /.features-block -->
+        </div>
+        <!-- /.features-blocks -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.features -->
+
+
+
 <div class="overlay">
     <div class="popup">
         <div class="popup-title">Форма обратной связи</div>
@@ -107,6 +248,19 @@
     <!-- /.popup -->
 </div>
 <!-- /.overlay -->
+
+
+
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.header-contacts__button').on('click', function () {
+            $('.overlay').show()
+        });
+        $('.popup-close').on('click', function () {
+            $('.overlay').hide()
+        });
+    });
+</script>
 </body>
 </html>
